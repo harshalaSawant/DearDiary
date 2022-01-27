@@ -1,0 +1,16 @@
+<div class="row">
+  <p>Please enter your creds to open your Diary</p>
+  <form class="login-form">
+    <mat-form-field class="">
+      <mat-label>Username</mat-label>
+      <input matInput placeholder="Your Name" />
+    </mat-form-field>
+  
+    <mat-form-field class="">
+      <mat-label>Secret Key</mat-label>
+      <input matInput placeholder="Your Password" type="password" />
+    </mat-form-field>
+  
+    <button class="primary-btn" type="submit" (click)="submit()">Open Diary</button>
+  </form>
+</div>

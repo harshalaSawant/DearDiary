@@ -1,0 +1,12 @@
+.primary-btn {
+  background-color: rebeccapurple;
+  color: blanchedalmond;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 10px;
+  &:hover {
+    background-color: plum;
+    color: purple;
+    font-weight: 700;
+  }
+}
